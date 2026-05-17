@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[49,)"
+license="MIT"
+[[mods]]
+modId="advculling"
+version="2.1.0"
+displayName="Advanced Culling"
+credits="Yigit"
+authors="Yigit"
+description='''
+Multi-Threaded performance and optimization engine for Minecraft Forge 1.20.4.
+'''
+[[dependencies.advculling]]
+modId="forge"
+mandatory=true
+versionRange="[49,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.advculling]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.4]"
+ordering="NONE"
+side="BOTH"
